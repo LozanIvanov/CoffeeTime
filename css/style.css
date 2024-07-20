@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3e7f73;
+}
+
+.container {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #242424;
+    margin-top: 160px;
+
+
+}
+
+.main-container {
+    width: 1440px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #242424;
+    margin: 0 auto;
+}
+
+/*INDIAN*/
+
+.indian-container {
+
+    width: 1440px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0.690;
+
+background-color: #c7baa7;
+}
+
+.indian-first {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.indian-box1 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 105px;
+    padding-top: 100px;
+}
+
+.indian-box1 h2 {
+    font-size: 33px;
+    color: #23221b;
+    font-weight: 700;
+    font-family: "Hind";
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.indian-box1 p {
+    width: 465px;
+    height: 217px;
+    font-size: 25px;
+    line-height: 33px;
+    color: #031211;
+    font-weight: 400;
+    font-family: "Hind";
+}
+
+.indian-box2 {
+    width: 65%;
+    padding: 40px 40px 40px 0px;
+    box-sizing: border-box;
+
+}
+.indian-box2 img{
+    width: 100%;
+    height: 100%;
+}
+/*INDIAN END*/
+/*ABOUT US*/
+.about-container {
+
+    width: 1440px;
+    height: 1537px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.about-first {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.about-box1 {
+    width: 46%;
+    height: 100%;
+    background-image: url('/asert/images/About-box1.png');
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-p {
+    background-color: #e6a73b;
+    width: 611px;
+    height: 156px;
+    text-align: center;
+
+}
+
+.about-p p {
+    font-size: 29px;
+    line-height: 33px;
+    color: #242424;
+    font-weight: 400;
+    font-family: "Hind";
+}
+
+.about-box2 {
+    display: flex;
+    width: 53%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.first-about {
+    width: 32%;
+    height: 100%;
+    background-image: url('/asert/images/about1.png');
+}
+
+.third-about {
+    background-image: url('/asert/images/about\ melba.png');
+    width: 32%;
+
+}
+
+.second-about {
+    width: 32%;
+    background-image: url('/asert/images/aboutmilk.png');
+
+}
+
+.about-box2 h2 {
+    position: absolute;
+    font-size: 153px;
+    line-height: 129px;
+    color: #242424;
+    font-weight: 950;
+    font-family: "Fira Sans";
+    z-index: 1;
+    background-color: #e6a73b;
+    top: 90px;
+    left: 47px;
+}
+
+
+
+/*ABOUT US END*/
+
+
+/*MENU*/
+.menu-container {
+
+    width: 1348px;
+    height: 462px;
+    margin: 94px auto;
+    margin-top: 80px;
+
+}
+
+.menu-first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-first h2 {
+    font-family: "Hind";
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.menu-first p {
+    font-size: 23px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.menu-box1 {
+    opacity: 0.788;
+    width: 430px;
+    height: 462px;
+    background-color: #3e7f73;
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+    padding-left: 98px;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: start;
+    box-sizing: border-box;
+
+}
+
+
+.menu-box2 {
+    opacity: 0.788;
+    width: 450px;
+    height: 457px;
+    background-color: #774953;
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+    padding-left: 95px;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.menu-box3 {
+    opacity: 0.788;
+    width: 430px;
+    height: 462px;
+    background-color: #0b3a49;
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+    padding-left: 80px;
+    padding-right: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    box-sizing: border-box;
+}
+
+/*MENU END*/
+
+/* TRADITION*/
+.tradicion-container {
+
+    width: 1348px;
+    height: 528px;
+    background-color: #aa7424;
+    margin: 94px auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+
+
+}
+
+.tradition-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    z-index: 2;
+    position: absolute;
+}
+
+.tradicion-first p {
+    width: 400px;
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Hind";
+    position: absolute;
+    z-index: 2;
+    left: 70px;
+    top: 200px;
+}
+
+.tradicion-first h2 {
+    font-size: 95px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Hind";
+    position: absolute;
+    z-index: 2;
+    left: 70px;
+    top: 40px;
+
+}
+
+.shape {
+    position: absolute;
+    width: 380px;
+    height: 110px;
+    opacity: 0.831;
+    color: #ffffff;
+    z-index: 1;
+    top: 370px;
+
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    top: 15px;
+
+}
+
+.icon img {
+    width: 40px;
+    margin-left: 65px;
+    margin-right: 20px;
+}
+
+.icon h4 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #1e1f1e;
+    font-weight: 500;
+    font-family: "Hind";
+    text-align: right;
+
+
+}
+
+.tradition-second {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    z-index: 1;
+    left: 539px;
+
+}
+
+/*TRADITON END*/
+
+/* FOODS*/
+.food-container {
+
+    width: 1440px;
+    height: 960px;
+    margin: 0 auto;
+    background-image: url('/asert/images/Food\ background.png');
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.food-first {
+    width: 470px;
+    height: 730;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+    box-sizing: border-box;
+    top: 140px;
+    left: 110px;
+}
+
+.food-img {
+    width: 100%;
+    height: 430px;
+}
+
+.food-text {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.food-first h2 {
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #565656;
+    font-weight: 700;
+    font-family: "Hind";
+}
+
+.food-first p {
+    font-size: 24px;
+    color: #504f4f;
+    font-weight: 400;
+    font-family: "Hind";
+    margin-top: 0;
+}
+
+.food-first p strong {
+    font-size: 24px;
+    color: #504f4f;
+    font-weight: 700;
+    font-family: "Hind";
+    margin-bottom: 0;
+}
+
+.food-button {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #565656;
+    font-weight: bold;
+    font-family: "Hind";
+    border: unset;
+    border-bottom: 13px solid green;
+    background-color: #ffffff;
+    padding: 0;
+
+}
+
+/* FOODS END*/
+/*BOOKING*/
+.booking-container {
+
+    width: 1440px;
+    height: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.booking-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    z-index: -1;
+}
+
+.booknow {
+    width: 300px;
+    height: 130px;
+    background-color: #2e584e;
+    position: absolute;
+    z-index: 1;
+    top: 920px;
+    left: 563px;
+}
+
+.booknow>div {
+    font-size: 65px;
+    line-height: 54px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: "Fira Sans";
+    text-align: center;
+    padding: 7px 15px;
+}
+
+.booking-form {
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.right {
+    margin: 0 300px;
+}
+
+.booking-form label {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+.booking-form select,
+input {
+    width: 220px;
+    height: 30px;
+    color: #ffffff;
+
+
+
+}
+
+.select {
+    display: flex;
+
+    flex-direction: column;
+    align-items: start;
+    margin-top: 30px;
+
+}
+
+.select label .select option {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Hind";
+}
+
+.bookingbutton {
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    margin-top: 9px;
+    font-size: 18px;
+    background-color: #1e1f1e;
+    padding-left: 6px;
+
+}
+
+.select input {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+/*BOOKING END*/
+
+/*THANKS*/
+.thanks-container {
+
+    width: 1440px;
+    height: 680px;
+    background-color: #1e1f1e;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.thanks-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.vector1 {
+    width: 110px;
+    margin-bottom: 30px;
+
+}
+
+.vector2 {
+    width: 380px;
+    height: 330px;
+    margin: 0;
+    position: relative;
+}
+
+.thanksp {
+    color: #ffffff;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    font-size: 33px;
+
+}
+
+.booking-btn {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.booking-btn button {
+    color: orange;
+    border: unset;
+    background-color: #1e1f1e;
+    font-size: 17\zzpx;
+}
+
+/*THANKS*/
+
+/*FOOTER*/
+.footer-container {
+
+    width: 1440px;
+    height: 518px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.footer-first {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 125px;
+    margin-top: 40px;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-media {
+    display: flex;
+    width: 320px;
+    margin: 17px 0;
+
+
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    border: 1px solid #59453f;
+    background-color: #59453f;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.social-media a i {
+    font-size: 35px;
+    background-color: #59453f;
+    color: #ffffff;
+}
+
+.twe {
+    width: 100%;
+    border: 1px solid #59453f;
+    background-color: #59453f;
+    border-radius: 50%;
+    padding: 7px;
+    text-align: center;
+}
+
+.footer-first p {
+    font-size: 25px;
+    line-height: 74px;
+    color: #564741;
+    font-weight: 400;
+    font-family: "Hind";
+    margin-top: 0;
+}
+
+.cof {
+    width: 520px;
+    position: absolute;
+    top: -85px;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-10%);
+
+}
+
+.cof img {
+    width: 100%;
+    height: auto;
+}
+
+.flower {
+    width: 640px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: -1;
+    transform: translateX(37%);
+
+}
+
+.cof img {
+    width: 100%;
+    height: auto;
+}
+
+/*FOOTER END*/
