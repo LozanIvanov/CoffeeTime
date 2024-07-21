@@ -17,7 +17,11 @@ body {
     margin: 0 auto;
     background-color: #242424;
     margin-top: 160px;
-
+    position: relative;
+    overflow: hidden;
+    overflow-y: hidden;
+    padding-bottom: 100px;
+    
 
 }
 
@@ -28,6 +32,130 @@ body {
     background-color: #242424;
     margin: 0 auto;
 }
+.logo{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left:220px;
+    top: 20px;
+    
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.top-container{
+    width: 1440px;
+    height: 20px;
+}
+
+/*NAV*/
+.nav-container {
+
+    width: 1440px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color:  #32302e;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-first {
+
+    height: 100%;
+    width: 100%;
+   
+   
+
+}
+
+.nav-first ul {
+display: flex;
+justify-content: center;
+align-items: center;
+  
+    list-style-type: none;
+
+}
+.nav-first ul li{
+    
+    margin-left: 70px;
+}
+
+.nav-first ul li a {
+    opacity: 0.780;
+    font-size: 35px;
+    color:#ffffff;
+    font-weight: 700;
+    font-family: "Hind";
+    text-decoration: none;
+}
+
+
+/*NAV END*/
+
+/*HEADER*/
+.header-container {
+
+    width: 1186px;
+    height: 820px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.header-first {
+    width: 100%;
+    height: 100%;
+    background-image: url('/asert/images/Image\ \(8\).png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+
+
+
+
+}
+
+.header-box1 {
+    opacity: 0.710;
+    width: 921px;
+    height: 324px;
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding-top: 0;
+
+}
+
+.header-box1 h2 {
+    font-size: 142px;
+    color: #242424;
+    font-weight: 900;
+    font-family: "Fira Sans";
+    margin: 0;
+
+}
+
+.header-box1 button {
+    width: 266px;
+    height: 59px;
+    background-color: #37150a;
+    font-size: 42px;
+    color: #bd6925;
+    font-weight: 400;
+    font-family: "Hind";
+    padding: 0;
+
+}
+
+/*HEADER END*/
 
 /*INDIAN*/
 
@@ -36,10 +164,10 @@ body {
     width: 1440px;
     height: 480px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 80px;
     opacity: 0.690;
 
-background-color: #c7baa7;
+    background-color: #c7baa7;
 }
 
 .indian-first {
@@ -83,10 +211,12 @@ background-color: #c7baa7;
     box-sizing: border-box;
 
 }
-.indian-box2 img{
+
+.indian-box2 img {
     width: 100%;
     height: 100%;
 }
+
 /*INDIAN END*/
 /*ABOUT US*/
 .about-container {
@@ -108,7 +238,7 @@ background-color: #c7baa7;
     width: 46%;
     height: 100%;
     background-image: url('/asert/images/About-box1.png');
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -620,32 +750,36 @@ input {
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /*  position: relative;
+    overflow: hidden;*/
 
 
 }
 
 .footer-first {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    z-index: 1;
+    justify-content: center;
+   /* position: relative;
+    z-index: 1;*/
 
 }
 
-.logo {
+.footer-logo {
     width: 125px;
     margin-top: 40px;
-
+    
 }
 
-.logo img {
+.footer-logo img {
     width: 100%;
     height: 100%;
+    color: #43322b;
 }
 
 .social-media {
@@ -695,24 +829,26 @@ input {
 .cof {
     width: 520px;
     position: absolute;
-    top: -85px;
+    top: 7460px;
     left: 0;
-    z-index: -1;
+    z-index: 1;
     transform: translateX(-10%);
+    
 
 }
 
 .cof img {
     width: 100%;
     height: auto;
+    
 }
 
 .flower {
-    width: 640px;
+    width: 650px;
     position: absolute;
-    top: -50px;
+    top: 7480px;
     right: 0;
-    z-index: -1;
+    z-index: 1;
     transform: translateX(37%);
 
 }
@@ -720,6 +856,14 @@ input {
 .cof img {
     width: 100%;
     height: auto;
+}
+.under-container{
+    width: 1640px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    top:8064px;
+    background-color:#242424;
 }
 
 /*FOOTER END*/
